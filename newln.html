@@ -1,0 +1,32 @@
+<html>
+
+    <head>
+
+        <title></title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    </head>
+
+    <body>
+
+        <p> hello </p>
+
+        <script>
+
+         function string_check(str1) {
+  if (str1 === null || str1 === undefined || str1.substring(0, 3) === 'new') 
+  {
+    return str1;
+  }
+  return "new"+str1;
+}
+
+console.log(string_check("newsyllabus"));
+console.log(string_check("syllabus"));
+
+        </script>
+
+    </body>
+
+</html>

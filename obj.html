@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            let employees = [
+  {
+    "employee_name": "Mani",
+    
+    "salary": 40000
+  },
+  {
+    "employee_name": "Arun",
+    
+    "salary": 20000
+  },
+  {
+    "employee_name": "Shiva",
+    
+    "salary": 60000
+  },
+  {
+    "employee_name": "Sakthi",
+    
+    "salary": 70000
+  },
+]
+
+console.log(employees)
+let sortedemployees = employees.sort(
+    (s1, s2) => (s1.salary < s2.salary) ? 1 : (s1.salary > s2.salary) ? -1 : 0);
+
+console.log("salary sorted based on descending order area:")
+console.log(sortedemployees);
+</script>
+
+        <div>TODO write content</div>
+    </body>
+</html>
